@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Islamic App Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="store-hero">
+    <h1>Islam360 Inspired</h1>
+    <p>Clean, minimal, and elegant Islamic experience</p>
+  </div>
+
+  <div class="device-row">
+    <!-- Quran Reading Screen -->
+    <div class="device">
+      <div class="status-bar">
+        <span>9:41</span>
+        <span class="dots">···</span>
+      </div>
+      <div class="screen quran">
+        <div class="screen-header">
+          <div class="title">
+            <span class="badge">القرآن</span>
+            <h2>Surah Al-Fatiha</h2>
+            <p class="subtitle">Makki • 7 Ayat</p>
+          </div>
+          <div class="actions">
+            <button class="icon-btn" aria-label="Bookmark">
+              <span class="icon icon-bookmark"></span>
+            </button>
+            <button class="icon-btn" aria-label="Settings">
+              <span class="icon icon-settings"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="quran-body">
+          <div class="ayah">
+            <p class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+            <p class="translation en">In the name of Allah—the Most Compassionate, Most Merciful.</p>
+            <p class="translation ur">اللہ کے نام سے جو بے حد مہربان، نہایت رحم والا ہے۔</p>
+          </div>
+
+          <div class="ayah">
+            <p class="arabic">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</p>
+            <p class="translation en">All praise is for Allah—Lord of all worlds,</p>
+            <p class="translation ur">تمام تعریفیں اللہ ہی کے لئے ہیں جو تمام جہانوں کا پروردگار ہے،</p>
+          </div>
+
+          <div class="reading-controls">
+            <button class="chip"><span class="icon icon-play"></span> Play</button>
+            <button class="chip"><span class="icon icon-font"></span> Font</button>
+            <button class="chip"><span class="icon icon-translate"></span> Translations</button>
+          </div>
+        </div>
+
+        <div class="tabbar">
+          <button class="tab active"><span class="icon icon-quran"></span><span>Quran</span></button>
+          <button class="tab"><span class="icon icon-prayer"></span><span>Prayer</span></button>
+          <button class="tab"><span class="icon icon-compass"></span><span>Qibla</span></button>
+          <button class="tab"><span class="icon icon-hadith"></span><span>Hadith</span></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prayer Times Screen -->
+    <div class="device">
+      <div class="status-bar">
+        <span>9:41</span>
+        <span class="dots">···</span>
+      </div>
+      <div class="screen prayer">
+        <div class="screen-header">
+          <div class="title">
+            <h2>Prayer Times</h2>
+            <p class="subtitle">Karachi, Pakistan</p>
+          </div>
+          <div class="actions">
+            <button class="icon-btn" aria-label="Location">
+              <span class="icon icon-location"></span>
+            </button>
+            <button class="icon-btn" aria-label="Settings">
+              <span class="icon icon-settings"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card next-prayer">
+            <div class="card-body">
+              <div>
+                <p class="label">Next Prayer</p>
+                <h3>Asr</h3>
+                <p class="time">04:37 PM • In 1h 12m</p>
+              </div>
+              <div class="pill">Today 10 Rabiʽ II</div>
+            </div>
+          </div>
+
+          <div class="card times-grid">
+            <div class="time-row">
+              <span>Fajr</span>
+              <strong>05:12</strong>
+            </div>
+            <div class="time-row">
+              <span>Dhuhr</span>
+              <strong>12:22</strong>
+            </div>
+            <div class="time-row">
+              <span>Asr</span>
+              <strong>16:37</strong>
+            </div>
+            <div class="time-row">
+              <span>Maghrib</span>
+              <strong>17:49</strong>
+            </div>
+            <div class="time-row">
+              <span>Isha</span>
+              <strong>19:15</strong>
+            </div>
+          </div>
+
+          <div class="widget-row">
+            <div class="mini-card">
+              <span class="icon icon-moon"></span>
+              <div>
+                <p class="label">Hijri Date</p>
+                <p class="value">10 Rabiʽ II 1447</p>
+              </div>
+            </div>
+            <div class="mini-card">
+              <span class="icon icon-sun"></span>
+              <div>
+                <p class="label">Sunrise</p>
+                <p class="value">06:36</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabbar">
+          <button class="tab"><span class="icon icon-quran"></span><span>Quran</span></button>
+          <button class="tab active"><span class="icon icon-prayer"></span><span>Prayer</span></button>
+          <button class="tab"><span class="icon icon-compass"></span><span>Qibla</span></button>
+          <button class="tab"><span class="icon icon-hadith"></span><span>Hadith</span></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Qibla Direction Screen -->
+    <div class="device">
+      <div class="status-bar">
+        <span>9:41</span>
+        <span class="dots">···</span>
+      </div>
+      <div class="screen qibla">
+        <div class="screen-header">
+          <div class="title">
+            <h2>Qibla Direction</h2>
+            <p class="subtitle">Face towards the Kaaba</p>
+          </div>
+          <div class="actions">
+            <button class="icon-btn" aria-label="Calibrate">
+              <span class="icon icon-calibrate"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="compass">
+          <div class="compass-ring">
+            <div class="needle"></div>
+            <div class="kaaba"></div>
+          </div>
+          <p class="qibla-angle">Qibla: 258° WSW</p>
+        </div>
+
+        <div class="tabbar">
+          <button class="tab"><span class="icon icon-quran"></span><span>Quran</span></button>
+          <button class="tab"><span class="icon icon-prayer"></span><span>Prayer</span></button>
+          <button class="tab active"><span class="icon icon-compass"></span><span>Qibla</span></button>
+          <button class="tab"><span class="icon icon-hadith"></span><span>Hadith</span></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hadith Search Screen -->
+    <div class="device">
+      <div class="status-bar">
+        <span>9:41</span>
+        <span class="dots">···</span>
+      </div>
+      <div class="screen hadith">
+        <div class="screen-header">
+          <div class="title">
+            <h2>Hadith Search</h2>
+            <p class="subtitle">Sahih al-Bukhari, Muslim, more</p>
+          </div>
+          <div class="actions">
+            <button class="icon-btn" aria-label="Filters">
+              <span class="icon icon-filter"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="search-bar">
+          <span class="icon icon-search"></span>
+          <input type="text" placeholder="Search Hadith in English or Urdu" />
+        </div>
+
+        <div class="results">
+          <div class="result">
+            <p class="ref">Bukhari 1</p>
+            <p class="en">Actions are judged by intentions...</p>
+            <p class="ur">اعمال کا دارومدار نیتوں پر ہے...</p>
+          </div>
+          <div class="result">
+            <p class="ref">Muslim 35</p>
+            <p class="en">Indeed Allah has prescribed ihsan in all things...</p>
+            <p class="ur">بیشک اللہ نے ہر چیز میں احسان فرض کیا ہے...</p>
+          </div>
+        </div>
+
+        <div class="tabbar">
+          <button class="tab"><span class="icon icon-quran"></span><span>Quran</span></button>
+          <button class="tab"><span class="icon icon-prayer"></span><span>Prayer</span></button>
+          <button class="tab"><span class="icon icon-compass"></span><span>Qibla</span></button>
+          <button class="tab active"><span class="icon icon-hadith"></span><span>Hadith</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="store-footer">
+    <p>Preview UI — Not functional. Ready for app store mockups and investor decks.</p>
+  </footer>
+</body>
+</html>
